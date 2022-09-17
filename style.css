@@ -1,0 +1,7 @@
+.container {
+  background-color: rgb(222, 229, 236);
+  border: 2px solid red;
+  display: grid;
+
+  border-radius: 15px;
+}
