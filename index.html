@@ -6,106 +6,102 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Check Out Page</title>
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
+    <h1>Checkout</h1>
     <div class="container">
-      <section>
-        <div class="row top">
-          <div class="img1"><img src="./img/photo1.png" alt="" /></div>
+      <div class="mid-container">
+        <img src="./img/photo1.png" alt="" />
 
-          <div class="row top col1">
-            <div class="info1">
-              <h2>Vintage Shoes</h2>
-              <p><span>$25.98</span> $34.99</p>
-            </div>
-            <div class="btn all1">
-              <div class="btn all1 btn1">
-                <button>-</button>
-                <p>1</p>
-                <button>+</button>
-              </div>
-              <div class="remove">
-                <button>Remove</button>
-              </div>
-              <div class="product1">
-                <h2>Product Total:<span>$25.98</span></h2>
-              </div>
-            </div>
+        <div class="info">
+          <h2>Vintage Backbag</h2>
+          <span class="orange">$25.98</span>
+          <span>$34.99</span>
+          <div class="counter">
+            <button class="count">
+              <i class="fa-solid fa-minus"></i>
+            </button>
+            <span class="number">1</span>
+            <button class="count">
+              <i class="fa-solid fa-plus"></i>
+            </button>
           </div>
+
+          <button class="remove">Remove</button>
+
+          <h2>Product Total:<span>$25.98</span></h2>
         </div>
-      </section>
-      <section>
-        <div class="row middle">
-          <div class="img1"><img src="./img/photo2.png" alt="" /></div>
-          <div class="row top col1">
-            <div class="info1">
-              <h2>Vintage Shoes</h2>
-              <p><span>$25.98</span> $34.99</p>
-            </div>
-            <div class="btn all1">
-              <div class="btn all1 btn1">
-                <button>-</button>
-                <p>1</p>
-                <button>+</button>
-              </div>
-              <div class="remove">
-                <button>Remove</button>
-              </div>
-              <div class="product1">
-                <h2>Product Total:<span>$25.98</span></h2>
-              </div>
-            </div>
+      </div>
+
+      <div class="mid-container">
+        <img src="./img/photo2.png" alt="" />
+
+        <div class="info">
+          <h2>Levi Shoes</h2>
+          <span class="orange">$45.99</span>
+          <span>$54.99</span>
+          <div class="counter">
+            <button class="count">
+              <i class="fa-solid fa-minus"></i>
+            </button>
+            <span class="number">1</span>
+            <button class="count">
+              <i class="fa-solid fa-plus"></i>
+            </button>
           </div>
+
+          <button class="remove">Remove</button>
+
+          <h2>Product Total:<span>$45.99</span></h2>
         </div>
-      </section>
-      <section>
-        <div class="row bottom">
-          <div class="img1"><img src="./img/photo3.jpg" alt="" /></div>
-          <div class="row top col1">
-            <div class="info1">
-              <h2>Vintage Shoes</h2>
-              <p><span>$25.98</span> $34.99</p>
-            </div>
-            <div class="btn all1">
-              <div class="btn all1 btn1">
-                <button>-</button>
-                <p>1</p>
-                <button>+</button>
-              </div>
-              <div class="remove">
-                <button>Remove</button>
-              </div>
-              <div class="product1">
-                <h2>Product Total:<span>$25.98</span></h2>
-              </div>
-            </div>
+      </div>
+      <div class="mid-container">
+        <img src="./img/photo3.jpg" alt="" />
+
+        <div class="info">
+          <h2>Antique Clock</h2>
+          <span class="orange">$74.99</span>
+          <span>$94.99</span>
+          <div class="counter">
+            <button class="count">
+              <i class="fa-solid fa-minus"></i>
+            </button>
+            <span class="number">1</span>
+            <button class="count">
+              <i class="fa-solid fa-plus"></i>
+            </button>
           </div>
+
+          <button class="remove">Remove</button>
+
+          <h2>Product Total:<span>$94.99</span></h2>
         </div>
-      </section>
-      <section>
-        <div class="calculate">
-          <div class="subtotal">
-            <hr />
-            <h2>subtotal</h2>
-            <p>$146.99</p>
-          </div>
-          <div class="tax">
-            <hr />
-            <h2>Tax(%18)</h2>
-            <p>$26.45</p>
-          </div>
-          <div class="shipping">
-            <hr />
-            <h2>shipping</h2>
-            <p>$15.00</p>
-          </div>
-          <div class="total">
-            <hr />
-            <h2>Total</h2>
-            <p>$188.41</p>
-          </div>
+      </div>
+      <div class="subtotal">
+        <div class="subtotal-hr">
+          <p>Subtotal</p>
+          <p>$120.99</p>
         </div>
-      </section>
+        <div class="subtotal-hr">
+          <p>Tax(%18)</p>
+          <p>$20.45</p>
+        </div>
+        <div class="subtotal-hr">
+          <p>Shipping</p>
+          <p>$30.64</p>
+        </div>
+        <div class="subtotal-hr">
+          <p>Total</p>
+          <p>$300</p>
+        </div>
+      </div>
     </div>
 
     <script src="app.js"></script>
